@@ -13,7 +13,7 @@
 
 service: hello-world
 # app and org for use with dashboard.serverless.com
-app: hello-world
+app: hello-serverless
 org: m00p1ng
 
 plugins:
