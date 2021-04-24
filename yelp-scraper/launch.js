@@ -22,7 +22,7 @@ function deployScraper(businessName) {
   return lambda.invoke(params, function (error, data) {
     if (error) {
       console.error(JSON.stringify(error))
-      return new Error(`Error scraing: ${JSON.stringify(error)}`)
+      return new Error(`Error scraping: ${JSON.stringify(error)}`)
     } else if (data) {
       console.log(data)
       return JSON.stringify(data)
